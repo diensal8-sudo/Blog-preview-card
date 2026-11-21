@@ -1,0 +1,147 @@
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+   /* .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }*/
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  body {
+      background-color: hsla(0, 4%, 5%, 0.995);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  min-width: 375px;
+  }
+
+   .container {
+      background-color: hsl(47, 88%, 63%);
+      width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   width: 70%;
+
+  }
+  .card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px rgba(11, 10, 10, 0.951);
+   width: min(70%, 320px);
+   height: 80%;
+   display: flex;
+   flex-direction: column;
+   
+  }
+  .card-image img{
+width: 100%;    
+padding: 16px; 
+border-radius: 30px;  
+  } 
+  .card-content h1{
+    font-size: 1.5rem;
+  font-family: bold;
+    font-weight: 700;
+    text-align: center;
+  } 
+  .category {
+    font-size: 0.75rem;
+    font-weight: 700;
+  background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding: 4px 8px;
+    margin-left: 16px;
+  }
+  p {
+    font-size: 0.875rem;
+    color: hsl(228, 12%, 48%);
+   padding: 16px;
+  }
+   .author {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+   }
+    .author img {
+border-radius: 50%;
+margin-right: 16px;
+    }
+    .author-name {
+       font-size: 0.75rem;
+    font-weight: 700;
+    }
+ 
+    @media (min-width:  768px) {
+    
+    body {
+     background-color: hsla(0, 20%, 94%, 0.989);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+   .container {
+      background-color: hsl(47, 88%, 63%);
+      width: 900px;
+      height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 100px auto;
+    box-shadow: 5px 5px 5px 5px rgba(11, 10, 10, 0.051);
+  }
+  .card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px rgba(11, 10, 10, 0.951);
+   width: min(90%, 320px);
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   
+  }
+  .card-image img{
+width: 100%;    
+padding: 16px; 
+border-radius: 30px;  
+  } 
+  .card-content h1{
+    font-size: 1.5rem;
+  font-family: bold;
+    font-weight: 700;
+    text-align: center;
+  } 
+  .category {
+    font-size: 0.75rem;
+    font-weight: 700;
+  background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding: 4px px;
+    margin-left: 16px;
+  }
+  p {
+    font-size: 0.875rem;
+    color: hsl(228, 12%, 48%);
+   padding: 6px;
+  }
+   .author {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+   }
+    .author img {
+border-radius: 50%;
+margin-right: 16px;
+
+    }
+    .author-name {
+       font-size: 0.75rem;
+    font-weight: 700;
+    }
+          }
+
+    
